@@ -1,5 +1,5 @@
 {
-  "name": "voku/css-to-inline-styles",
+  "name": "mmaaikel/css-to-inline-styles",
   "type": "library",
   "description": "Only a Fork of -> CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
   "keywords": [
@@ -11,24 +11,16 @@
     "style",
     "css"
   ],
-  "homepage": "https://github.com/voku/CssToInlineStyles",
-  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/Mmaaikel/CssToInlineStyles",
   "authors": [
     {
-      "name": "Tijs Verkoyen",
-      "email": "css_to_inline_styles@verkoyen.eu",
-      "role": "Developer"
-    },
-    {
-      "name": "Lars Moelleken",
-      "email": "lars@moelleken.org",
-      "homepage": "https://github.com/voku",
+      "name": "Maikel Reijnders",
       "role": "Developer"
     }
   ],
   "require": {
     "php": ">=7.0.0",
-    "symfony/css-selector": "~3.0 || ~4.0",
+    "symfony/css-selector": "~3.0 || ~4.0 || ~5.0",
     "voku/simple_html_dom": "~4.5",
     "ext-dom": "*"
   },
@@ -37,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "voku\\CssToInlineStyles\\": "src"
+      "mmaaikel\\CssToInlineStyles\\": "src"
     }
   },
   "extra": {

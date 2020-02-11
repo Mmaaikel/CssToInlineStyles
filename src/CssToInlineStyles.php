@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace voku\CssToInlineStyles;
+namespace mmaaikel\CssToInlineStyles;
 
 use Symfony\Component\CssSelector\CssSelectorConverter;
 use Symfony\Component\CssSelector\Exception\ExceptionInterface;
-use voku\helper\HtmlDomParser;
+use mmaaikel\helper\HtmlDomParser;
 
 /**
  * CSS to Inline Styles class

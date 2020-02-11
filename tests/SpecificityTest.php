@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace voku\CssToInlineStyles\tests;
+namespace mmaaikel\CssToInlineStyles\tests;
 
-use voku\CssToInlineStyles\Specificity;
+use mmaaikel\CssToInlineStyles\Specificity;
 
 /**
  * Class SpecificityTest
