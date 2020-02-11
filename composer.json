@@ -12,6 +12,7 @@
     "css"
   ],
   "homepage": "https://github.com/Mmaaikel/CssToInlineStyles",
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Maikel Reijnders",
