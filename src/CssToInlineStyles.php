@@ -6,7 +6,7 @@ namespace mmaaikel\CssToInlineStyles;
 
 use Symfony\Component\CssSelector\CssSelectorConverter;
 use Symfony\Component\CssSelector\Exception\ExceptionInterface;
-use mmaaikel\helper\HtmlDomParser;
+use voku\helper\HtmlDomParser;
 
 /**
  * CSS to Inline Styles class
